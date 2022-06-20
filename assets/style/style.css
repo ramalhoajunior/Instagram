@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    margin: auto;
+    text-decoration: none;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fafafa;
+    font-size: 13px;
+    font-weight: bold;
+}
+.main {
+    display: flex;
+    height: 90vh;
+    min-width: auto;
+}
+.celular-img {
+    display: flex;
+    width: 50%;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 75%;
+    min-width: auto;
+    align-items: center;
+    margin: 80px 0px 0px 10px;
+}
+.profile #instagram-logo {
+    width: 12rem;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+#foto-perfil {
+    border-radius: 50%;
+    width: 6rem;
+    margin: 0px 0px 20px 0px;
+}
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 24em;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid lightgray;
+}
+.group a {
+    display: flex;
+    height: 30px;
+    width: 250px;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    margin: 5px 0px 10px 0px;
+}
+.group1 {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+    justify-content: center;
+    border: 1px solid lightgray;
+    background-color: #ffff;
+    margin: 0;
+    
+}
+.group1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;;
+    border-radius: 5px;
+    margin: 0px 7px 0px 7px;
+}
+.button-blue {
+    background-color: #0095f6;
+    color: #fff;
+}
+.button-white {
+    background-color: #fff;
+    color: #0095f6;
+}
+.change-user {
+    display: flex;
+    color: #0095f6;
+    font-weight: bold;
+}
+.register {
+    display:flex;
+    color: #0095f6;
+    font-weight: bold;
+}
+.get-app {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin: 0px;
+}
+.get-app p {
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+.choose-store {
+    display: flex;
+}
+.choose-store img {
+    width: 50px;
+}
+
+#apple-img {
+    width: 150px;
+    height: 45px;
+}
+#android-img {
+    width: 150px;
+    height: 59px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 200%;
+    
+    justify-content: space-between;
+}
+.footer a {
+    color: #808080;
+    margin: 5px 10px 5px 10px;
+    flex-wrap: nowrap;
+    font-size: 13px;
+}
+.footer1,
+.footer2,
+.footer3 {
+    display: flex;
+    margin: 2px 0px 2px 0px;
+    justify-content: center;
+}
